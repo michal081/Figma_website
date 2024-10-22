@@ -1,3 +1,7 @@
+import forks from  '../assets/forks.png'
+import alien from '../assets/alien.png'
+import infinity from '../assets/infinity.png'
+
 
 export const navlinks = [
     {
@@ -20,4 +24,52 @@ export const navlinks = [
         title: "Contact",
         url: '/contact'
     },
+]
+
+ export const features = [
+    {
+        icon: forks,
+        title: 'A single source of truth',
+        text: 'When you add work to your Slate calendar we automatically calculate useful insights',
+    },
+    {
+        icon: alien,
+        title: 'Intuitive interface',
+        text: 'When you add work to your Slate calendar we automatically calculate useful insights',
+    },
+    {
+        icon: infinity,
+        title: 'Or with rules',
+        text: 'When you add work to your Slate calendar we automatically calculate useful insights',
+    }
+]
+
+const footer = [
+    {
+        name: "Company",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    },
+    {
+        name: "Resources",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    },
+    {
+        name: "About",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    }
 ]
