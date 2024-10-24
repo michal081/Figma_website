@@ -1,6 +1,8 @@
 import forks from  '../assets/forks.png'
 import alien from '../assets/alien.png'
 import infinity from '../assets/infinity.png'
+import Macbook from '../assets/Macbook.png'
+import Boards from '../assets/Boards.png'
 
 
 export const navlinks = [
@@ -44,7 +46,7 @@ export const navlinks = [
     }
 ]
 
-const footer = [
+ export const footer = [
     {
         name: "Company",
         links: [
@@ -71,5 +73,20 @@ const footer = [
             "Pricing",
             'Updates',
         ]
+    }
+]
+
+ export const content = [
+    {
+        name: 'Work',
+        text: "Ever wondered if you're too reliant on a client for work? Slate helps you identify.",
+        button: 'Sign Up',
+        icon: Macbook,
+    },
+    {
+        name: 'Design with real data',
+        text: "Ever wondered if you're too reliant on a client for work? Slate helps you identify.",
+        button: 'Try For Free',
+        icon: Boards,
     }
 ]
