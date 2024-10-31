@@ -5,6 +5,7 @@ import Constant from '../InnerPage/Constant'
 import Gallery from '../InnerPage/Gallery'
 import Partners from '../InnerPage/Partners'
 import Testimonial from '../InnerPage/Testimonal'
+import Try from '../InnerPage/Try'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Gallery/>
       <Partners/>
       <Testimonial/>
+      <Try/>
     </div>
   )
 }

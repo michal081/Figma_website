@@ -7,7 +7,7 @@ import { textVariant, staggerContainer, fadeIn } from "../Utils/motion"
 
 function Partners() {
   return (
-    <motion.div 
+    <motion.div   
     variants={staggerContainer()}
     initial="hidden"
     whileInView="show"
