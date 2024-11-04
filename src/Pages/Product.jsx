@@ -1,11 +1,15 @@
-import React from 'react'
+import PriceTable from "../InnerPage/pricetable";
+import Productfeatures from "../InnerPage/product features.jsx";
+import Write from "../InnerPage/product write up.jsx"
 
-const Product = () => {
-  return (
-    <div className='mt-[10vh]'>
-      <h2>Lionel has mental issue</h2>
-    </div>
-  )
+function Product(){
+
+    return (
+        <div>
+         <Write/>
+         <Productfeatures/>
+         <PriceTable/>
+        </div>
+    )
 }
-
-export default Product
+export default Product;
